@@ -394,6 +394,11 @@ footer {
     padding-top: 70px;
 }
 
+.footer-text img {
+    width: 150px;
+}
+
+
 hr {
     margin: 80px;
     border: 1px solid rgb(59, 59, 59);
