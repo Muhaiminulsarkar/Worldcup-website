@@ -234,6 +234,10 @@ body {
     border-radius: 10px;
 }
 
+.news img {
+    border-radius: 10px 10px 0px 0px;
+}
+
 
 
 .news button {
@@ -424,7 +428,7 @@ hr {
 
 .icons a {
     font-size: 25px;
-    color: #d60000;
+    color: #ff2626;
     padding: 0px 5px;
 }
 
