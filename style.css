@@ -242,6 +242,10 @@ body {
     border-radius: 10px;
 }
 
+.country-name img {
+    border-radius: 10px;
+}
+
 
 
 .news button {
