@@ -83,7 +83,7 @@ body {
     align-items: center;
 }
 
-/* upcoming match page  */
+/* upcoming match page start */
 
 #schedule {
     width: 312px;
@@ -110,6 +110,45 @@ body {
     background-color: #DD0000;
     color: white;
 }
+
+/* upcoming match page end */
+
+/* group page start */
+
+#groups {
+    background-color: #f0f0f0;
+    padding: 5px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#groups h2 {
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    align-items: start;
+}
+
+.country-name {
+    display: flex;
+    margin-top: 10px;
+}
+
+.country-name h3 {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.menu .group-btn {
+    background-color: #DD0000;
+    color: white;
+}
+
+
 
 /* mobile view */
 @media only screen and (max-width:500px) {
