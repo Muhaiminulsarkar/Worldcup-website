@@ -195,6 +195,12 @@ body {
     grid-gap: 15px;
 }
 
+.tablet-view button {
+    display: none;
+
+}
+
+
 /* mobile view */
 @media only screen and (max-width:650px) {
 
@@ -274,6 +280,25 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
+    }
+
+    .tablet-view button {
+        display: block;
+        padding: 12px 20px;
+        font-size: 15px;
+        background-color: #ff2121;
+        border: none;
+        color: white;
+        border-radius: 5px;
+
+    }
+
+    .tablet-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 9px;
+        padding: 20px 30px;
     }
 
 
